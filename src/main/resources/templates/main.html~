@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Power Hour</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--bower:js-->
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="/lib/underscore/underscore.js"></script>
+    <script src="/lib/backbone/backbone.js"></script>
+    <script src="/lib/Backbone.localStorage/backbone.localStorage.js"></script>
+    <!--endbower-->
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+</head>
+<body>
+  <section id="todoapp">
+    <header id="header">
+      <h1>Todos</h1>
+      <input id="new-todo" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section id="main">
+      <ul id="todo-list"></ul>
+    </section>
+  </section>
+</body>
+</html>
